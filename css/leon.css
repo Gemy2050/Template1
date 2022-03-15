@@ -450,3 +450,10 @@ footer span {
     font-weight: bold;
 }
 /* End Footer*/
+.alw {
+    position: absolute;
+    width: 100px !important;
+    height: 70px !important;
+    left: 140px;
+    top: 170px;
+}
