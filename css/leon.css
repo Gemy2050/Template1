@@ -464,5 +464,5 @@ footer span {
     width: 50%;
 }
 .portfolio .card .img-holder img:first-child {
-    border: 1px solid #DDD;
+    border: 1px solid black;
 }
