@@ -457,3 +457,9 @@ footer span {
     left: 140px;
     top: 170px;
 }
+.portfolio .card .img-holder {
+    display: flex;
+}
+.portfolio .card .img-holder img:first-child {
+    border: 1px solid black;
+}
