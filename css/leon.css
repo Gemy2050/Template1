@@ -460,6 +460,9 @@ footer span {
 .portfolio .card .img-holder {
     display: flex;
 }
+.portfolio .card .img-holder img {
+    width: 50%;
+}
 .portfolio .card .img-holder img:first-child {
     border: 1px solid black;
 }
