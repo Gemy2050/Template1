@@ -3,7 +3,7 @@ let text = "welcome";
 let speech = new SpeechSynthesisUtterance(text);
 window.onload = function() {
     speechSynthesis.speak(speech);
-    // spkButton.click();
+    spkButton.click();
 };
 spkButton.onclick = function() {
     speechSynthesis.speak(speech);
@@ -14,6 +14,7 @@ let videosArray = Array.from(videos);
 videosArray.forEach((vid) => {
     addEventListener("click", (e) => {
       vid.pause();
-    e.target.play();
+    if(e.target.classList.contains("vid"))
+        e.target.play();
   });
 });
