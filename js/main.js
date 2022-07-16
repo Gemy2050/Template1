@@ -1,9 +1,9 @@
 let spkButton = document.querySelector(".speak");
-let text = "welcome";
+let text = "welcome . Ya Kosomak";
 let speech = new SpeechSynthesisUtterance(text);
 window.onload = function () {
   speechSynthesis.speak(speech);
-  spkButton.click();
+  spkButton.click(); 
 };
 spkButton.onclick = function () {
   speechSynthesis.speak(speech);
