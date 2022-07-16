@@ -1,8 +1,13 @@
-let text = "welcome . ya kosomak";
+let spkButton = document.querySelector(".speak")
+let text = "welcome";
 let speech = new SpeechSynthesisUtterance(text);
-window.onload = () => {
-  speechSynthesis.speak(speech);
+window.onload = function() {
+    speechSynthesis.speak(speech);
+    // spkButton.click();
 };
+spkButton.onclick = function() {
+    speechSynthesis.speak(speech);
+}
 
 let videos = document.querySelectorAll("video");
 let videosArray = Array.from(videos);
